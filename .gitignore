@@ -60,3 +60,7 @@ crashlytics-build.properties
 
 # VSCode ignore
 .vscode/
+
+# other bullshit
+
+[Uu]ser[Ss]ettings/
