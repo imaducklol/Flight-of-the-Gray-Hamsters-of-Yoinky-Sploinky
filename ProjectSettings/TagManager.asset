@@ -29,7 +29,7 @@ TagManager:
   - Layer 2
   - Layer 3
   - 
-  - 
+  - propts
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
+    locked: 0
+  - name: Propts
+    uniqueID: 329544355
     locked: 0
