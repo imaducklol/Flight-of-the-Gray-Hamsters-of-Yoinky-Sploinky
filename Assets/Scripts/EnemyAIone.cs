@@ -7,30 +7,8 @@ using UnityEngine.Serialization;
 
 
 //         https://github.com/SebLague/Field-of-View/blob/master/Episode%2001/Scripts/FieldOfView.cs
-
-public class EnemyAIone : MonoBehaviour {
-    /*Transform Player;
-    Transform selfTransform;
-    [SerializeField,Range(30,90)] int FOV;
-    [SerializeField] int range;
-
-    int viewDirection; // 0 north 1 west 2 south 3 east
-    bool playerInSight = false;
-
-    void Start() {
-        selfTransform = GetComponent<Transform>();
-    }
-
-    void Update() {
-        // range
-        if (Vector2.Distance(Player.position, selfTransform.position) <= range) {
-            // angle
-            float angle = Vector2.SignedAngle(selfTransform.position, Player.position
-            switch (angle) {
-                case 
-            }
-        }
-    }*/
+//         https://www.youtube.com/watch?v=G1yAkfdlDtM
+public class EnemyAIOne : MonoBehaviour {
 
     public float Radius;
     [Range(0,360)] public float FOV;
@@ -39,6 +17,7 @@ public class EnemyAIone : MonoBehaviour {
     public LayerMask obstacleMask;
 
     public List<Transform> visibleTargets = new List<Transform>();
+    public Vector3 forward;
 
     void Start() {
         StartCoroutine("FindTargets", .2f);
@@ -54,6 +33,8 @@ public class EnemyAIone : MonoBehaviour {
                 playerhelper.GetComponent<Renderer>().material.color = Color.red;
             }
         }
+
+        forward = transform.forward;
     }
 
     IEnumerator FindTargets(float delay) {
