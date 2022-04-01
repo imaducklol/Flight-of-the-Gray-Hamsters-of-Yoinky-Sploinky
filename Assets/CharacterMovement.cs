@@ -12,6 +12,7 @@ public class CharacterMovement : MonoBehaviour
     Vector2 movement;
 
     SpriteRenderer spriteRenderer;
+    public Transform interactor;
 
     void Start()
     {
@@ -26,6 +27,13 @@ public class CharacterMovement : MonoBehaviour
        animator.SetFloat("Horizontal", movement.x);
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+       if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Vertical")== -1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1)
+       {
+           animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
+           animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+       }
+      
 
        spriteRenderer.flipX = movement.x < 0.01 ? true : false;
     }
