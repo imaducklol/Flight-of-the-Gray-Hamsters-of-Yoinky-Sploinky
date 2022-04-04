@@ -17,7 +17,6 @@ public class EnemyAIOne : MonoBehaviour {
     public LayerMask obstacleMask;
 
     public List<Transform> visibleTargets = new List<Transform>();
-    public Vector3 forward;
 
     void Start() {
         StartCoroutine("FindTargets", .2f);
@@ -34,7 +33,6 @@ public class EnemyAIOne : MonoBehaviour {
             }
         }
 
-        forward = transform.forward;
     }
 
     IEnumerator FindTargets(float delay) {
@@ -52,8 +50,10 @@ public class EnemyAIOne : MonoBehaviour {
             Transform target = targetsInRadius[i].transform;
             Vector2 directionToTarget = (target.position - transform.position).normalized;
 
+            float degreesToTarget = Mathf.Atan2(transform.position.y - target.transform.position.y, transform.position.x - target.transform.position.x) * Mathf.Rad2Deg;
+
             // In FOV?
-            if (Vector2.Angle(transform.forward, directionToTarget) < FOV / 2) {
+            if (Mathf.DeltaAngle(transform.rotation.z + 180, Mathf.Abs(degreesToTarget)) < FOV / 2) { // NOT WORKING> FIX THIS SHIT
                 float distanceToTarget = Vector2.Distance(transform.position, target.position);
 
                 // View blocked?
