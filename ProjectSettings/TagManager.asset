@@ -44,6 +44,9 @@ TagManager:
   - name: Shadows
     uniqueID: 1604824481
     locked: 0
+  - name: Layer 0
+    uniqueID: 3641070105
+    locked: 0
   - name: Layer 1
     uniqueID: 2425651459
     locked: 0
