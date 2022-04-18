@@ -11,6 +11,10 @@ public class CharacterMovement : MonoBehaviour
 
     Vector2 movement;
 
+    private float attackTime = .25f;
+    private float attackCounter = .25f;
+    private bool isAttacking;
+
     SpriteRenderer spriteRenderer;
     public Transform interactor;
 
@@ -35,7 +39,21 @@ public class CharacterMovement : MonoBehaviour
        }
       
 
-       spriteRenderer.flipX = movement.x < 0.01 ? true : false;
+       if(isAttacking)
+       {
+            attackCounter -=Time.deltaTime;
+            if(attackCounter <= 0)
+            {
+                animator.SetBool("isAttacking", false);
+                isAttacking = false;
+            }
+       }
+
+        if (Input.GetMouseButtonDown(0)){
+            attackCounter = attackTime;
+            animator.SetBool("isAttacking", true);
+            isAttacking = true;
+        }
     }
 
     void FixedUpdate()
