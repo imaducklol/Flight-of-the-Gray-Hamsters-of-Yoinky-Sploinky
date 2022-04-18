@@ -239,7 +239,7 @@ GameObject:
   m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!61 &282245107
 BoxCollider2D:
@@ -444,7 +444,6 @@ GameObject:
   - component: {fileID: 1286754586}
   - component: {fileID: 1286754585}
   - component: {fileID: 1286754587}
-  - component: {fileID: 1286754588}
   - component: {fileID: 1286754589}
   m_Layer: 7
   m_Name: Enemy
@@ -530,8 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1bdba754f78fd4dbe868eaa2607988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Radius: 100
-  FOV: 45
+  Radius: 5
   targetMask:
     serializedVersion: 2
     m_Bits: 64
@@ -539,19 +537,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   visibleTargets: []
---- !u!114 &1286754588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1286754584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27351719df7514541ae0451c3b8596bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 6
 --- !u!50 &1286754589
 Rigidbody2D:
   serializedVersion: 4
