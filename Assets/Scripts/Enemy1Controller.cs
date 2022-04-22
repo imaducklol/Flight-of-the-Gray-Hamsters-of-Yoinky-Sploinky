@@ -9,7 +9,6 @@ namespace Pathfinding {
 public class Enemy1Controller : MonoBehaviour {
 
     [SerializeField] private float Radius;
-    // [Range(0,360)] public float FOV;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
 
@@ -41,16 +40,20 @@ public class Enemy1Controller : MonoBehaviour {
             }
         }
 
-        // Get closest target
-        Transform closest = visibleTargets[0];
-        foreach (Transform item in visibleTargets) {
-            if (Vector2.Distance(transform.position, item.position) 
-            < Vector2.Distance(transform.position, closest.position)) {
-                closest = item;
-            }
-        }
         // Targetting
-        // DOES NOT WORK ---- IMPLEMENT A* https://www.youtube.com/watch?v=jvtFUfJ6CP8
+        // Get closest target
+        
+        Transform closest = null;
+        if (visibleTargets[0] != null) {
+            closest = visibleTargets[0];
+            foreach (Transform item in visibleTargets) {
+                if (Vector2.Distance(transform.position, item.position) 
+                < Vector2.Distance(transform.position, closest.position)) {
+                    closest = item;
+                }
+            }
+
+        }
         if (closest != null && ai != null) ai.destination = target.position;
     }
 
