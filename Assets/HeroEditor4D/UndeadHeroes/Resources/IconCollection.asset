@@ -1,0 +1,1192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650133c44dc1224489eed33fcd27316e, type: 3}
+  m_Name: IconCollection
+  m_EditorClassIdentifier: 
+  Backgrounds: []
+  Id: UndeadHeroes
+  IconFolders:
+  - {fileID: 102900000, guid: 76de4b23f354c1e459cf001ad11b39f7, type: 3}
+  Icons:
+  - Name: Banana
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Earrings.Banana
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Earrings/Undead/Banana.png
+    Sprite: {fileID: 21300000, guid: a176eb0d9eabecb46ad09bc7dadab531, type: 3}
+  - Name: BanditArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.BanditArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/BanditArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 65e0ec8e1c1f25c4095142e916aa809d, type: 3}
+  - Name: BanditArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.BanditArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/BanditArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: fb4d4dd9393e42d4abfe16f785c0742b, type: 3}
+  - Name: BanditArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.BanditArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/BanditArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 20de568a9c844804da31c5e1addbd5e3, type: 3}
+  - Name: BanditArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.BanditArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/BanditArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: f6f2db3c688629640a7b1f11419e6881, type: 3}
+  - Name: BanditArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.BanditArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/BanditArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: e0b4a00fc3a5efa44b7395e77a4228b5, type: 3}
+  - Name: BanditArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.BanditArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/BanditArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 0e725471c92e00940b944517db7b83db, type: 3}
+  - Name: BanditArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.BanditArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/BanditArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 33c479f207e6bc24aac8f617e8863a9b, type: 3}
+  - Name: BanditArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.BanditArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/BanditArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 2d1a562e7c09a904fb753cab067e6c52, type: 3}
+  - Name: BanditArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.BanditArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/BanditArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 8d8894e9b8905cc46984bb9bde6e7ad6, type: 3}
+  - Name: BanditArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.BanditArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/BanditArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 454fcc918da6b3b4f9ccfb5bc89265d3, type: 3}
+  - Name: BanditArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.BanditArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/BanditArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 7ff83f2e3a2aa874da553f46400badd5, type: 3}
+  - Name: BanditArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.BanditArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/BanditArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: d3b5c2923675c574388ec38a9a9e8455, type: 3}
+  - Name: BanditArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.BanditArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/BanditArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: a2629a15795e08549b000fd2618e2358, type: 3}
+  - Name: BanditArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.BanditArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/BanditArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 5fd16b41b29638046b33a07ae2833183, type: 3}
+  - Name: BanditArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.BanditArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/BanditArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 4d5117a86926205478f4d480b25a28a3, type: 3}
+  - Name: BattleBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Arrow.BattleBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Arrow/Undead/BattleBow.png
+    Sprite: {fileID: 21300000, guid: 6d54079f6143e3d4dac620c816fc8a7e, type: 3}
+  - Name: BattleBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bow.BattleBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bow/Undead/BattleBow.png
+    Sprite: {fileID: 21300000, guid: f32fa35f9319e1e4facc9d81fe2af6fd, type: 3}
+  - Name: BattleBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Quiver.BattleBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Quiver/Undead/BattleBow.png
+    Sprite: {fileID: 21300000, guid: 0b1aa497af99f01439f305040269a189, type: 3}
+  - Name: BoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Arrow.BoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Arrow/Undead/BoneBow.png
+    Sprite: {fileID: 21300000, guid: 7ff0dce571ecfcf45a7a087dfd1c2ede, type: 3}
+  - Name: BoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bow.BoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bow/Undead/BoneBow.png
+    Sprite: {fileID: 21300000, guid: 62de5ca48be71564e8ce598303ded414, type: 3}
+  - Name: BoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Quiver.BoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Quiver/Undead/BoneBow.png
+    Sprite: {fileID: 21300000, guid: 81e24954b2902484ea83fa066793f730, type: 3}
+  - Name: BoneClub
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.BoneClub
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/BoneClub.png
+    Sprite: {fileID: 21300000, guid: 6e4044c915bfc6b479dc481f2c6b140c, type: 3}
+  - Name: BoneDagger
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.BoneDagger
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Dagger/BoneDagger.png
+    Sprite: {fileID: 21300000, guid: 90998f3892e450341a5540259281be09, type: 3}
+  - Name: BoneKnife
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.BoneKnife
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Dagger/BoneKnife.png
+    Sprite: {fileID: 21300000, guid: c03e69a9409f3854bbad477b78f95e4e, type: 3}
+  - Name: BonePistol
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Firearm1H.BonePistol
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Firearm1H/Undead/BonePistol.png
+    Sprite: {fileID: 21300000, guid: 3f007404ef911d44b972273597164a39, type: 3}
+  - Name: BrokenRustedSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.BrokenRustedSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/BrokenRustedSword.png
+    Sprite: {fileID: 21300000, guid: eac7459d1428aa24ea93e6bb7b0dfa8a, type: 3}
+  - Name: ButcherKnife
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.ButcherKnife
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Sword/ButcherKnife.png
+    Sprite: {fileID: 21300000, guid: cbd9bc67b76a159419289f130f70ca85, type: 3}
+  - Name: CopperPickaxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.CopperPickaxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/CopperPickaxe.png
+    Sprite: {fileID: 21300000, guid: 9de5b66c52095364bba3c81885403b1b, type: 3}
+  - Name: CultistRobe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.CultistRobe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/CultistRobe.png
+    Sprite: {fileID: 21300000, guid: 17d4e705592df7542992e8b8139e3f14, type: 3}
+  - Name: CultistRobe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.CultistRobe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/CultistRobe.png
+    Sprite: {fileID: 21300000, guid: f276c655d396c944f86360bf2594f3d8, type: 3}
+  - Name: CultistRobe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.CultistRobe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/CultistRobe.png
+    Sprite: {fileID: 21300000, guid: e42ab65a25e7f944f8d9b4370da4de37, type: 3}
+  - Name: CultistRobe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.CultistRobe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/CultistRobe.png
+    Sprite: {fileID: 21300000, guid: 6f1f4327c13c7b146980f3a00bc12ee6, type: 3}
+  - Name: CultistRobe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.CultistRobe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/CultistRobe.png
+    Sprite: {fileID: 21300000, guid: 00f365b01ec39be46b6d8febcdae4ab3, type: 3}
+  - Name: CursedWand
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.CursedWand
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Wand/CursedWand.png
+    Sprite: {fileID: 21300000, guid: 02a38961fd9b12d408a00fd6b2a9703f, type: 3}
+  - Name: CursedWandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.CursedWandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Wand/CursedWandTypeA.png
+    Sprite: {fileID: 21300000, guid: 8ca953bc972ba9b488bd9c71565e2e49, type: 3}
+  - Name: CursedWandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.CursedWandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Wand/CursedWandTypeB.png
+    Sprite: {fileID: 21300000, guid: e4c3a1e5bd604fc4881279a0a327f364, type: 3}
+  - Name: EarsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.EarsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/EarsType1.png
+    Sprite: {fileID: 21300000, guid: 08bca8d4dcd35ab428432ec20e9e8593, type: 3}
+  - Name: EarsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.EarsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/EarsType1.png
+    Sprite: {fileID: 21300000, guid: f0cc4d7a6896e2d4988a0daafefb97a5, type: 3}
+  - Name: EarsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.EarsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/EarsType1.png
+    Sprite: {fileID: 21300000, guid: cbe2ff307fc955541be61aed319b376c, type: 3}
+  - Name: EarsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.EarsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/EarsType1.png
+    Sprite: {fileID: 21300000, guid: 95318a1a7489f28428a17940d2ae7de9, type: 3}
+  - Name: EarsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.EarsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/EarsType1.png
+    Sprite: {fileID: 21300000, guid: 6b4ac01907d6ed24db457019b96e61cf, type: 3}
+  - Name: EarsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.EarsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/EarsType2.png
+    Sprite: {fileID: 21300000, guid: c7425b10fddb90b4aa576d556964ada9, type: 3}
+  - Name: EarsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.EarsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/EarsType2.png
+    Sprite: {fileID: 21300000, guid: 49d32a7a918426c48a8a210e7a8ef122, type: 3}
+  - Name: EarsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.EarsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/EarsType2.png
+    Sprite: {fileID: 21300000, guid: 2134998939e666649853470ea0eeb2bd, type: 3}
+  - Name: EarsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.EarsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/EarsType2.png
+    Sprite: {fileID: 21300000, guid: e85560e0802d36f478390a777101df6a, type: 3}
+  - Name: EarsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.EarsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/EarsType2.png
+    Sprite: {fileID: 21300000, guid: c8bc0e402cfbaf645a2c9ec58fae88a5, type: 3}
+  - Name: EarsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.EarsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/EarsType3.png
+    Sprite: {fileID: 21300000, guid: c513feaa4f7bfc449b9bba7c4e7e6f82, type: 3}
+  - Name: EarsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.EarsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/EarsType3.png
+    Sprite: {fileID: 21300000, guid: 08f86c1f4042fc9459c7021b441fbf0f, type: 3}
+  - Name: EarsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.EarsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/EarsType3.png
+    Sprite: {fileID: 21300000, guid: 1509a6b8664083445897ae45db75fc0a, type: 3}
+  - Name: EarsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.EarsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/EarsType3.png
+    Sprite: {fileID: 21300000, guid: f6549685b6fa32c45a6119fbfbb21da7, type: 3}
+  - Name: EarsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.EarsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/EarsType3.png
+    Sprite: {fileID: 21300000, guid: 9e68165482e6b6a41bc22d95e8d76409, type: 3}
+  - Name: EarsType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.EarsType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/EarsType4.png
+    Sprite: {fileID: 21300000, guid: ebb2666ad466fbf4db57b9489a1da517, type: 3}
+  - Name: EarsType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.EarsType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/EarsType4.png
+    Sprite: {fileID: 21300000, guid: 99d2c58e90b24fc43afb06bd2214cafa, type: 3}
+  - Name: EarsType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.EarsType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/EarsType4.png
+    Sprite: {fileID: 21300000, guid: cbad440f75894ec468968d93a53b0575, type: 3}
+  - Name: EarsType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.EarsType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/EarsType4.png
+    Sprite: {fileID: 21300000, guid: c4a3dffb3d1d0eb458870fc18ff86e4c, type: 3}
+  - Name: EarsType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.EarsType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/EarsType4.png
+    Sprite: {fileID: 21300000, guid: bbc5a5c78f2713d4dabbb2f49eeff744, type: 3}
+  - Name: ExecutionerArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.ExecutionerArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/ExecutionerArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: ff3253fe79f70ee41a9ee85e3c2202c5, type: 3}
+  - Name: ExecutionerArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.ExecutionerArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/ExecutionerArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 63632f8ccdc4149439464bdb1f8d41ef, type: 3}
+  - Name: ExecutionerArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.ExecutionerArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/ExecutionerArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 97c8a87663597174ebaaa374990e9ae4, type: 3}
+  - Name: ExecutionerArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.ExecutionerArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/ExecutionerArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 1f557747be4f0544b8319a2b16259a5a, type: 3}
+  - Name: ExecutionerArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.ExecutionerArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/ExecutionerArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 45557d5d4ef78694ca0f8360ee73ec2b, type: 3}
+  - Name: ExecutionerArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.ExecutionerArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/ExecutionerArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 53775061b5055764085da31f5efb69fd, type: 3}
+  - Name: ExecutionerArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.ExecutionerArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/ExecutionerArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 6a5beaa23c2d34641986f283f8d526ee, type: 3}
+  - Name: ExecutionerArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.ExecutionerArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/ExecutionerArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 59be02b37c4b1cf4b8afb10a2080e59e, type: 3}
+  - Name: ExecutionerArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.ExecutionerArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/ExecutionerArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: ff13b54f68f54ca41a15f0822760c461, type: 3}
+  - Name: ExecutionerArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.ExecutionerArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/ExecutionerArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 755fa59fe5a458e4397ac004fd96e39c, type: 3}
+  - Name: ExecutionerGreataxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.ExecutionerGreataxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/ExecutionerGreataxe.png
+    Sprite: {fileID: 21300000, guid: fb7a7b5b3d6460442bdb7476a3d73297, type: 3}
+  - Name: GlassesType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.GlassesType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/GlassesType1.png
+    Sprite: {fileID: 21300000, guid: 2aca3f1ccb86b1241a3f6f5aacdd00b2, type: 3}
+  - Name: GlassesType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.GlassesType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/GlassesType2.png
+    Sprite: {fileID: 21300000, guid: 33cc1a48271f466499c02f83d8373183, type: 3}
+  - Name: GlassesType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.GlassesType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/GlassesType3.png
+    Sprite: {fileID: 21300000, guid: fbb0f50a0a8381f489b45c05b9bc9347, type: 3}
+  - Name: GlassesType4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.GlassesType4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/GlassesType4.png
+    Sprite: {fileID: 21300000, guid: 1d838fd36fb5c5f48827ad56bbe5a55d, type: 3}
+  - Name: GuardArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.GuardArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/GuardArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 213a41dad2276a641adaf015429007b8, type: 3}
+  - Name: GuardArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.GuardArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/GuardArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 41ee5fcbb4632f3479645fe80416f6af, type: 3}
+  - Name: GuardArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.GuardArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/GuardArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: cc2d0ebee7b0bee46aa447e0dc922616, type: 3}
+  - Name: GuardArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.GuardArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/GuardArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: b2e221e3bb67aa14fab351b4bbb34e25, type: 3}
+  - Name: GuardArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.GuardArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/GuardArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 62e50d198d291b54d93c060ab5c82bb8, type: 3}
+  - Name: GuardArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.GuardArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/GuardArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: d7a031f33f76fd14f876f2770597d8c8, type: 3}
+  - Name: GuardArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.GuardArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/GuardArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 21ba6dca602c78b40a7124b8cedfbc21, type: 3}
+  - Name: GuardArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.GuardArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/GuardArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 26bb3661de1b3e3429c3fffb49d60be7, type: 3}
+  - Name: GuardArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.GuardArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/GuardArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 71d1ad2b146cc1049baf83214f04e17d, type: 3}
+  - Name: GuardArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.GuardArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/GuardArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: ebfea90eea6eae24294b20177a64b8a7, type: 3}
+  - Name: HeadBandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.HeadBandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/HeadBandTypeA.png
+    Sprite: {fileID: 21300000, guid: f6c8dae94e66a424c9e67ef22d8a0ba4, type: 3}
+  - Name: HeadBandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.HeadBandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/HeadBandTypeA.png
+    Sprite: {fileID: 21300000, guid: 4792429841cfe614f886992af80763f6, type: 3}
+  - Name: HeadBandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.HeadBandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/HeadBandTypeA.png
+    Sprite: {fileID: 21300000, guid: 466bab8cb3f371b4fab7d5a6a637224b, type: 3}
+  - Name: HeadBandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.HeadBandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/HeadBandTypeA.png
+    Sprite: {fileID: 21300000, guid: b67e5e3f095c9464aaf65aacc68f011d, type: 3}
+  - Name: HeadBandTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.HeadBandTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/HeadBandTypeA.png
+    Sprite: {fileID: 21300000, guid: 5a800289a263baa4aa4bfe5db85d6244, type: 3}
+  - Name: HeadBandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.HeadBandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/HeadBandTypeB.png
+    Sprite: {fileID: 21300000, guid: 672b6b59b87c97447855858782dfd389, type: 3}
+  - Name: HeadBandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.HeadBandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/HeadBandTypeB.png
+    Sprite: {fileID: 21300000, guid: 68840cca4b0558446bd3ac3ec25fee4a, type: 3}
+  - Name: HeadBandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.HeadBandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/HeadBandTypeB.png
+    Sprite: {fileID: 21300000, guid: 307110d31a5c993499babfccdf00dbd3, type: 3}
+  - Name: HeadBandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.HeadBandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/HeadBandTypeB.png
+    Sprite: {fileID: 21300000, guid: 1c8cafe0680478248b9ab02b75729dad, type: 3}
+  - Name: HeadBandTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.HeadBandTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/HeadBandTypeB.png
+    Sprite: {fileID: 21300000, guid: dc6a075b07a3458428a9fe78abdff86b, type: 3}
+  - Name: HornsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.HornsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/HornsType1.png
+    Sprite: {fileID: 21300000, guid: f5118a87b74371c4a84b5a07b2b4f1ea, type: 3}
+  - Name: HornsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.HornsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/HornsType1.png
+    Sprite: {fileID: 21300000, guid: baed972b485dcf7419d40513568421af, type: 3}
+  - Name: HornsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.HornsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/HornsType1.png
+    Sprite: {fileID: 21300000, guid: f68d4819d59619a4c88d782b90ed9c22, type: 3}
+  - Name: HornsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.HornsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/HornsType1.png
+    Sprite: {fileID: 21300000, guid: 522c37f68b1ef4e4090d9aa35543c5e6, type: 3}
+  - Name: HornsType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.HornsType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/HornsType1.png
+    Sprite: {fileID: 21300000, guid: 2346dc374da135f49bcb8112dbb4a3f9, type: 3}
+  - Name: HornsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.HornsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/HornsType2.png
+    Sprite: {fileID: 21300000, guid: d07070997502891479d9a6b13d7a4a23, type: 3}
+  - Name: HornsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.HornsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/HornsType2.png
+    Sprite: {fileID: 21300000, guid: 8c63c1d5b4a29a1479fac95bb499ba59, type: 3}
+  - Name: HornsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.HornsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/HornsType2.png
+    Sprite: {fileID: 21300000, guid: ff2b1549a15f4504e8d5b5cf8ff434fc, type: 3}
+  - Name: HornsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.HornsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/HornsType2.png
+    Sprite: {fileID: 21300000, guid: 12490d07172d7414ca9e7ea311b8c486, type: 3}
+  - Name: HornsType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.HornsType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/HornsType2.png
+    Sprite: {fileID: 21300000, guid: bd39025c832bab1439e7e72cc22c54db, type: 3}
+  - Name: HornsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.HornsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/HornsType3.png
+    Sprite: {fileID: 21300000, guid: 9ed3297d2c2a2344e813ae34fd23f742, type: 3}
+  - Name: HornsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.HornsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/HornsType3.png
+    Sprite: {fileID: 21300000, guid: 6865d41c0e39fab4b9f4b14a8b73f596, type: 3}
+  - Name: HornsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.HornsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/HornsType3.png
+    Sprite: {fileID: 21300000, guid: b85e4ebf69b461b4ba200fc03402c97d, type: 3}
+  - Name: HornsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.HornsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/HornsType3.png
+    Sprite: {fileID: 21300000, guid: b5be641e3692720429f1820398f0cbaf, type: 3}
+  - Name: HornsType3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.HornsType3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/HornsType3.png
+    Sprite: {fileID: 21300000, guid: 56ddfc006cf0e0d478b50c61c97f1b74, type: 3}
+  - Name: HunterBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Arrow.HunterBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Arrow/Undead/HunterBow.png
+    Sprite: {fileID: 21300000, guid: 5fb3d285d3986fe409443cddf4238187, type: 3}
+  - Name: HunterBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bow.HunterBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bow/Undead/HunterBow.png
+    Sprite: {fileID: 21300000, guid: 70d32f608036ae04f9ac9f27f136e68e, type: 3}
+  - Name: HunterBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Quiver.HunterBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Quiver/Undead/HunterBow.png
+    Sprite: {fileID: 21300000, guid: e925a99281df8cb44b6f0e185a3a9221, type: 3}
+  - Name: IronMallet
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.IronMallet
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Hammer/IronMallet.png
+    Sprite: {fileID: 21300000, guid: 8079e03a8fbcdfc49b62b1a3c7d8566a, type: 3}
+  - Name: KnightArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.KnightArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/KnightArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 3a5a6c6764ba3dd4caee57bb104a2363, type: 3}
+  - Name: KnightArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.KnightArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/KnightArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 08d5cfe66808ed040bfb8b6b3fa6d5cb, type: 3}
+  - Name: KnightArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.KnightArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/KnightArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 1ab95165eaa5b754d9413be93180ce0c, type: 3}
+  - Name: KnightArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.KnightArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/KnightArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 0fad13c81ac499c40b3f53f2def4f33f, type: 3}
+  - Name: KnightArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.KnightArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/KnightArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 0795f0688435c9841ad567a980eeb341, type: 3}
+  - Name: KnightArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.KnightArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/KnightArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 36e5c1086e7c7474c8c4671155b8f3dd, type: 3}
+  - Name: KnightArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.KnightArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/KnightArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 17148d67ccaa55646b3dafee83373a08, type: 3}
+  - Name: KnightArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.KnightArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/KnightArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: dacc17a07a15a5e4ea52bc222eedd89f, type: 3}
+  - Name: KnightArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.KnightArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/KnightArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 87f0aea96e942714b984cf0e5e0788ef, type: 3}
+  - Name: KnightArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.KnightArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/KnightArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 0f784c2df0aa95447ac7e41553d01698, type: 3}
+  - Name: KnightArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.KnightArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/KnightArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 0bdcef247aac0fa42b1c5dabc0b7f555, type: 3}
+  - Name: KnightArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.KnightArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/KnightArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 13a13e1243cde6844a9f2bad0d6c6966, type: 3}
+  - Name: KnightArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.KnightArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/KnightArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 35e513294c550fe488d645ec4d7cd134, type: 3}
+  - Name: KnightArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.KnightArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/KnightArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 8458138c33c31b8449f34e38da83d88e, type: 3}
+  - Name: KnightArmorTypeC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.KnightArmorTypeC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/KnightArmorTypeC.png
+    Sprite: {fileID: 21300000, guid: 70bc88b5c8f7e864cad68a4c108f74df, type: 3}
+  - Name: LightArmorA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.LightArmorA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/LightArmorA.png
+    Sprite: {fileID: 21300000, guid: c6d5175544a80114595f929d15f65898, type: 3}
+  - Name: LightArmorA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.LightArmorA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/LightArmorA.png
+    Sprite: {fileID: 21300000, guid: c275581d6cb466048ac66c32c1ff03fa, type: 3}
+  - Name: LightArmorA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.LightArmorA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/LightArmorA.png
+    Sprite: {fileID: 21300000, guid: 9126d5662c4c6d34a88c15878ea924a5, type: 3}
+  - Name: LightArmorA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.LightArmorA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/LightArmorA.png
+    Sprite: {fileID: 21300000, guid: bd8e65722e2c59f47a7137b0b9076910, type: 3}
+  - Name: LightArmorA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.LightArmorA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/LightArmorA.png
+    Sprite: {fileID: 21300000, guid: 34caa9213d2f6f342b0517b0a2eb715e, type: 3}
+  - Name: LightArmorB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.LightArmorB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/LightArmorB.png
+    Sprite: {fileID: 21300000, guid: c146adf0720f45a42b683224904fd9e8, type: 3}
+  - Name: LightArmorB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.LightArmorB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/LightArmorB.png
+    Sprite: {fileID: 21300000, guid: 25b9e53c76c9c7246a097c932ab769b8, type: 3}
+  - Name: LightArmorB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.LightArmorB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/LightArmorB.png
+    Sprite: {fileID: 21300000, guid: 481dbb463cad81047bdc11863788ff43, type: 3}
+  - Name: LightArmorB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.LightArmorB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/LightArmorB.png
+    Sprite: {fileID: 21300000, guid: 86ffe526de4ff65478fac3db15227373, type: 3}
+  - Name: LightArmorB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.LightArmorB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/LightArmorB.png
+    Sprite: {fileID: 21300000, guid: 71d8b37b231701c4b8bf33f3a9fd93fa, type: 3}
+  - Name: LightArmorC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.LightArmorC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/LightArmorC.png
+    Sprite: {fileID: 21300000, guid: 03e5681c65fc23342b097cd2fc0dc638, type: 3}
+  - Name: LightArmorC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.LightArmorC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/LightArmorC.png
+    Sprite: {fileID: 21300000, guid: 4f38bb068e4f7024996fd9eac60938e6, type: 3}
+  - Name: LightArmorC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.LightArmorC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/LightArmorC.png
+    Sprite: {fileID: 21300000, guid: 82695f5e6e3896341a9d1cae4c6a0f4f, type: 3}
+  - Name: LightArmorC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.LightArmorC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/LightArmorC.png
+    Sprite: {fileID: 21300000, guid: d625a059975398942b9b63ef806d171f, type: 3}
+  - Name: LightArmorC
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.LightArmorC
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/LightArmorC.png
+    Sprite: {fileID: 21300000, guid: e1f36641c10b073438106a236f4d34f9, type: 3}
+  - Name: MaskType1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.MaskType1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/MaskType1.png
+    Sprite: {fileID: 21300000, guid: d345b4e538f5cdf4eb115116b2385d72, type: 3}
+  - Name: MaskType2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Mask.MaskType2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Mask/Undead/MaskType2.png
+    Sprite: {fileID: 21300000, guid: bd2b618cc0f5dea479b06e139bec8c5c, type: 3}
+  - Name: Morgenstern
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.Morgenstern
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Hammer/Morgenstern.png
+    Sprite: {fileID: 21300000, guid: 9dfe258bcc6e00848a7fea5a102e0ace, type: 3}
+  - Name: OldWoodenHammer
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.OldWoodenHammer
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Hammer/OldWoodenHammer.png
+    Sprite: {fileID: 21300000, guid: ea9ed0ef6441351419b0c1a3c5e9fb8c, type: 3}
+  - Name: RaiderArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.RaiderArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/RaiderArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: caa02f83d05ae064e8f1a84988e61715, type: 3}
+  - Name: RaiderArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.RaiderArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/RaiderArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 0baa77f36c70b2c42972ed5375d63f60, type: 3}
+  - Name: RaiderArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.RaiderArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/RaiderArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 0c79ff0541430f2478dcb53b9243f5aa, type: 3}
+  - Name: RaiderArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.RaiderArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/RaiderArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: eb682a913b3dcf1478f1d240e161182a, type: 3}
+  - Name: RaiderArmorTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.RaiderArmorTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/RaiderArmorTypeA.png
+    Sprite: {fileID: 21300000, guid: 79bcd82a6a634d64997dc2788ed53118, type: 3}
+  - Name: RaiderArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.RaiderArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/RaiderArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 61419b8cb2dd915408fd92f4ddc8e429, type: 3}
+  - Name: RaiderArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.RaiderArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/RaiderArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 69d66394d2e5e0a41a55e6b0fe811209, type: 3}
+  - Name: RaiderArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.RaiderArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/RaiderArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 12189fed4b5993344bc9c66c190a4f35, type: 3}
+  - Name: RaiderArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.RaiderArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/RaiderArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: 92824ade30d92dc45b28d1f0b57e925a, type: 3}
+  - Name: RaiderArmorTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.RaiderArmorTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/RaiderArmorTypeB.png
+    Sprite: {fileID: 21300000, guid: a6de0531ac6b87940b18b9aaecb2fe0e, type: 3}
+  - Name: RottenGreatsword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RottenGreatsword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Sword/RottenGreatsword.png
+    Sprite: {fileID: 21300000, guid: 728f293b1940c324eadbe27d53792013, type: 3}
+  - Name: RustedBastardSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedBastardSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Sword/RustedBastardSword.png
+    Sprite: {fileID: 21300000, guid: 6c228950df6f57347b5b479336c26ba4, type: 3}
+  - Name: RustedBlacksmithHammer
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedBlacksmithHammer
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/RustedBlacksmithHammer.png
+    Sprite: {fileID: 21300000, guid: 05a98a4ccf618784ea1104c9c6d8e2c9, type: 3}
+  - Name: RustedBroadsword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedBroadsword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedBroadsword.png
+    Sprite: {fileID: 21300000, guid: 518cdafd6d820fa4cb04928f155813cd, type: 3}
+  - Name: RustedBuckler
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Shield.RustedBuckler
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Shield/Undead/RustedBuckler.png
+    Sprite: {fileID: 21300000, guid: 1329f17dbeb3e4c40b52cd32e59914c4, type: 3}
+  - Name: RustedDagger
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedDagger
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Dagger/RustedDagger.png
+    Sprite: {fileID: 21300000, guid: a9448e62df84b0b4682073b74b7215ee, type: 3}
+  - Name: RustedGreatAxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedGreatAxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/RustedGreatAxe.png
+    Sprite: {fileID: 21300000, guid: 45407d53bdc755b478f8e992b3e2c959, type: 3}
+  - Name: RustedGreatHammer
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedGreatHammer
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Hammer/RustedGreatHammer.png
+    Sprite: {fileID: 21300000, guid: 5bc4e8ee0b33b294d9c12250c54b4b32, type: 3}
+  - Name: RustedHammer
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedHammer
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/RustedHammer.png
+    Sprite: {fileID: 21300000, guid: 859e7f884e9cdaa45b83ab530204f52e, type: 3}
+  - Name: RustedKnightShield
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Shield.RustedKnightShield
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Shield/Undead/RustedKnightShield.png
+    Sprite: {fileID: 21300000, guid: ef5ee196f563f3d4ebe77cd8558a5c92, type: 3}
+  - Name: RustedKnightSwordTypeA
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedKnightSwordTypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedKnightSwordTypeA.png
+    Sprite: {fileID: 21300000, guid: 3154cbd24d8c9704b8b0e7592c9ac136, type: 3}
+  - Name: RustedKnightSwordTypeB
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedKnightSwordTypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedKnightSwordTypeB.png
+    Sprite: {fileID: 21300000, guid: 91a54dde82b9598408cc7f68485eea63, type: 3}
+  - Name: RustedLance
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedLance
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Lance/RustedLance.png
+    Sprite: {fileID: 21300000, guid: 2b269415112dacd4ba0656901c2dfb2f, type: 3}
+  - Name: RustedLargeShield
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Shield.RustedLargeShield
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Shield/Undead/RustedLargeShield.png
+    Sprite: {fileID: 21300000, guid: 6593e5f056337fe429ab2b41505d618d, type: 3}
+  - Name: RustedPaleSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedPaleSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Sword/RustedPaleSword.png
+    Sprite: {fileID: 21300000, guid: 97f4dd9c2a8cba442a8939227cdd081c, type: 3}
+  - Name: RustedPickaxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedPickaxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/RustedPickaxe.png
+    Sprite: {fileID: 21300000, guid: e5fe35ae60dbbda4ba65b9a2112e385b, type: 3}
+  - Name: RustedPoleaxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedPoleaxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/RustedPoleaxe.png
+    Sprite: {fileID: 21300000, guid: 14a4521eb03cb5d47976e8f86aac1773, type: 3}
+  - Name: RustedRoundShield
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Shield.RustedRoundShield
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Shield/Undead/RustedRoundShield.png
+    Sprite: {fileID: 21300000, guid: 8473d7ae85d3f1a47af07ba77152f31a, type: 3}
+  - Name: RustedScythe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedScythe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/RustedScythe.png
+    Sprite: {fileID: 21300000, guid: edb4d66f43f6798459d5dc9825ed9b8b, type: 3}
+  - Name: RustedShield
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Shield.RustedShield
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Shield/Undead/RustedShield.png
+    Sprite: {fileID: 21300000, guid: 7aaffc08f0b67e74c995e9fa2bcdbb4a, type: 3}
+  - Name: RustedShortAxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedShortAxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Axe/RustedShortAxe.png
+    Sprite: {fileID: 21300000, guid: f79102c42b9578d4da173fca6c3bf87d, type: 3}
+  - Name: RustedShortSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedShortSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedShortSword.png
+    Sprite: {fileID: 21300000, guid: 9db985c66cff30140bf7ccd10c5dba1f, type: 3}
+  - Name: RustedSlaveSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedSlaveSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedSlaveSword.png
+    Sprite: {fileID: 21300000, guid: 43f4788ddc2412b46ba17989d269b4dd, type: 3}
+  - Name: RustedSpikedClub
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedSpikedClub
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/RustedSpikedClub.png
+    Sprite: {fileID: 21300000, guid: bdd32081e17bff94394ef49f208f5193, type: 3}
+  - Name: RustedSword
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.RustedSword
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/RustedSword.png
+    Sprite: {fileID: 21300000, guid: 84944e216cfb02942929a16484f3ae40, type: 3}
+  - Name: RustedWoodcutterGreataxe
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.RustedWoodcutterGreataxe
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Axe/RustedWoodcutterGreataxe.png
+    Sprite: {fileID: 21300000, guid: 9eb18a85e95a900458af588ed56228a1, type: 3}
+  - Name: Showel
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.Showel
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/Showel.png
+    Sprite: {fileID: 21300000, guid: 4480cbad05eafb84aaf2843a81270997, type: 3}
+  - Name: Sickle
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.Sickle
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Sword/Sickle.png
+    Sprite: {fileID: 21300000, guid: 29b3028077600324984cafb0c8147fd9, type: 3}
+  - Name: Skeleton
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Eyes.Skeleton
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Eyes/Skeleton/Skeleton.png
+    Sprite: {fileID: 21300000, guid: c73ca0dc07baf5b4a85b9a8960d13b15, type: 3}
+  - Name: Skeleton1
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton1.png
+    Sprite: {fileID: 21300000, guid: e58135f0995207f42b1323372ea8a87a, type: 3}
+  - Name: Skeleton2 [NoMouth]
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton2 [NoMouth]
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton2
+      [NoMouth].png
+    Sprite: {fileID: 21300000, guid: dcbb13c3cb399344186d08069ff0748e, type: 3}
+  - Name: Skeleton3
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton3.png
+    Sprite: {fileID: 21300000, guid: 5e0a45be3a1b83a469df022bc4bfee8d, type: 3}
+  - Name: Skeleton4
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton4.png
+    Sprite: {fileID: 21300000, guid: 2650253d5376e754eaf4a7b5272dc108, type: 3}
+  - Name: Skeleton5
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton5
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton5.png
+    Sprite: {fileID: 21300000, guid: 14c5171e4d989fe46ae1d011c483bbba, type: 3}
+  - Name: Skeleton6
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton6
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton6.png
+    Sprite: {fileID: 21300000, guid: 26d4d27dcb8d558419acbfceedf4fae1, type: 3}
+  - Name: Skeleton7
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton7
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton7.png
+    Sprite: {fileID: 21300000, guid: 5f48656a14b52d84296de4319ce236df, type: 3}
+  - Name: Skeleton8 [NoMouth]
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.Skeleton8 [NoMouth]
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/Skeleton8
+      [NoMouth].png
+    Sprite: {fileID: 21300000, guid: 4928d554965507543a6e3c9ba375c948, type: 3}
+  - Name: SkeletonArmor1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonArmor1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonArmor1.png
+    Sprite: {fileID: 21300000, guid: 2ca490bfb8441524bbdca6eab7a91774, type: 3}
+  - Name: SkeletonArmor1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonArmor1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonArmor1.png
+    Sprite: {fileID: 21300000, guid: 08b4e08551445ac4c932410328bf998f, type: 3}
+  - Name: SkeletonArmor1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonArmor1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonArmor1.png
+    Sprite: {fileID: 21300000, guid: d2a278b08b2b560498c6557f6f9a811c, type: 3}
+  - Name: SkeletonArmor1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonArmor1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonArmor1.png
+    Sprite: {fileID: 21300000, guid: 68424137044893a419260e01fdfc735f, type: 3}
+  - Name: SkeletonArmor1
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonArmor1
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonArmor1.png
+    Sprite: {fileID: 21300000, guid: e63e59ce424c3904c833659b80cac995, type: 3}
+  - Name: SkeletonArmor2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonArmor2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonArmor2.png
+    Sprite: {fileID: 21300000, guid: 59544c031fae7b94c924c9a6f71ec046, type: 3}
+  - Name: SkeletonArmor2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonArmor2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonArmor2.png
+    Sprite: {fileID: 21300000, guid: 9218168af0c992f4ab1aecaf83e84623, type: 3}
+  - Name: SkeletonArmor2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonArmor2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonArmor2.png
+    Sprite: {fileID: 21300000, guid: 01bb8bcceda446f478c6365453758700, type: 3}
+  - Name: SkeletonArmor2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonArmor2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonArmor2.png
+    Sprite: {fileID: 21300000, guid: f136485cc422f7a4894a074dc34b2e44, type: 3}
+  - Name: SkeletonArmor2
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonArmor2
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonArmor2.png
+    Sprite: {fileID: 21300000, guid: 3b71a484b90cd954cbb4a6e6d8ae8f13, type: 3}
+  - Name: SkeletonArmor3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonArmor3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonArmor3.png
+    Sprite: {fileID: 21300000, guid: a244892c14120b14bbe727f28ce6b50f, type: 3}
+  - Name: SkeletonArmor3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonArmor3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonArmor3.png
+    Sprite: {fileID: 21300000, guid: ace5a2a4def34e44fb6335e3f95385ed, type: 3}
+  - Name: SkeletonArmor3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonArmor3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonArmor3.png
+    Sprite: {fileID: 21300000, guid: 620f2c84ddbc90041b1e678aac6abb4a, type: 3}
+  - Name: SkeletonArmor3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonArmor3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonArmor3.png
+    Sprite: {fileID: 21300000, guid: 18f0cfdad0c680741affc8b2195558c4, type: 3}
+  - Name: SkeletonArmor3
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonArmor3
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonArmor3.png
+    Sprite: {fileID: 21300000, guid: e3e05f3408ec1a64fb575ee75dc9a867, type: 3}
+  - Name: SkeletonArmor4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonArmor4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonArmor4.png
+    Sprite: {fileID: 21300000, guid: 03748cf08e6e589478ffa6f66eab43eb, type: 3}
+  - Name: SkeletonArmor4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonArmor4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonArmor4.png
+    Sprite: {fileID: 21300000, guid: 34856ca8ddfad674eb0169162f874291, type: 3}
+  - Name: SkeletonArmor4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonArmor4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonArmor4.png
+    Sprite: {fileID: 21300000, guid: 72194a3a5778d534f86b3ed6e44514ba, type: 3}
+  - Name: SkeletonArmor4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonArmor4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonArmor4.png
+    Sprite: {fileID: 21300000, guid: a9044ff11e76dc54295ca0888a095d8a, type: 3}
+  - Name: SkeletonArmor4
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonArmor4
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonArmor4.png
+    Sprite: {fileID: 21300000, guid: 0910044c22755b04c9d67d393911dc15, type: 3}
+  - Name: SkeletonKingArmor
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonKingArmor
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonKingArmor.png
+    Sprite: {fileID: 21300000, guid: 7cedbd3f70909c546bd0006235c23099, type: 3}
+  - Name: SkeletonKingArmor
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonKingArmor
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonKingArmor.png
+    Sprite: {fileID: 21300000, guid: 9a70b89869ad40a47bc4cc328647bdfd, type: 3}
+  - Name: SkeletonKingArmor
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonKingArmor
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonKingArmor.png
+    Sprite: {fileID: 21300000, guid: 0f374be033bd2a64a82970458759b19a, type: 3}
+  - Name: SkeletonKingArmor
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonKingArmor
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonKingArmor.png
+    Sprite: {fileID: 21300000, guid: c153362f4d8f5b44fba82b42a25aad25, type: 3}
+  - Name: SkeletonKingArmor
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonKingArmor
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonKingArmor.png
+    Sprite: {fileID: 21300000, guid: f65159059d80d5142b64547dbdd35c4a, type: 3}
+  - Name: SkeletonMiner
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Armor.SkeletonMiner
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Armor/Undead/SkeletonMiner.png
+    Sprite: {fileID: 21300000, guid: 381d8f8388b631a428c4e2f6a6340132, type: 3}
+  - Name: SkeletonMiner
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bracers.SkeletonMiner
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bracers/Undead/SkeletonMiner.png
+    Sprite: {fileID: 21300000, guid: 52bd4adb384e6d845a3a0e7e40c04cfc, type: 3}
+  - Name: SkeletonMiner
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Helmet.SkeletonMiner
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Helmet/Undead/SkeletonMiner.png
+    Sprite: {fileID: 21300000, guid: 1474b956f3d809147b800851a3ba3c9a, type: 3}
+  - Name: SkeletonMiner
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Leggings.SkeletonMiner
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Leggings/Undead/SkeletonMiner.png
+    Sprite: {fileID: 21300000, guid: e1613af68dd0be347b41d66c4c4558b7, type: 3}
+  - Name: SkeletonMiner
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Vest.SkeletonMiner
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Vest/Undead/SkeletonMiner.png
+    Sprite: {fileID: 21300000, guid: 617f39f818515ff4b8f169b6c6c76082, type: 3}
+  - Name: SkeletonTest
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Body.SkeletonTest
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Body/Skeleton/SkeletonTest.png
+    Sprite: {fileID: 21300000, guid: 9fbfa96a43f6c7e44a20b9ca4f789e60, type: 3}
+  - Name: SpikedBoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Arrow.SpikedBoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Arrow/Undead/SpikedBoneBow.png
+    Sprite: {fileID: 21300000, guid: 711a8dffca0f13b42bc9db4e5a820770, type: 3}
+  - Name: SpikedBoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bow.SpikedBoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bow/Undead/SpikedBoneBow.png
+    Sprite: {fileID: 21300000, guid: 0f3a11e85146d8f44b5dbf5fbdd0a212, type: 3}
+  - Name: SpikedBoneBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Quiver.SpikedBoneBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Quiver/Undead/SpikedBoneBow.png
+    Sprite: {fileID: 21300000, guid: bd4f67c56e785df4fa343b00e88ff3e9, type: 3}
+  - Name: SpineBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Arrow.SpineBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Arrow/Undead/SpineBow.png
+    Sprite: {fileID: 21300000, guid: c14410a4646f7e849bb155944526d73d, type: 3}
+  - Name: SpineBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Bow.SpineBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Bow/Undead/SpineBow.png
+    Sprite: {fileID: 21300000, guid: f629fc7b9e73c254baee1365a5279b22, type: 3}
+  - Name: SpineBow
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Quiver.SpineBow
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Quiver/Undead/SpineBow.png
+    Sprite: {fileID: 21300000, guid: d39b51ff55214624ab3b64bc12cc4807, type: 3}
+  - Name: StoneMace
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon2H.StoneMace
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Undead/Hammer/StoneMace.png
+    Sprite: {fileID: 21300000, guid: 59295fb38b0d3464c89c260078cf6541, type: 3}
+  - Name: TypeA
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Mouth.TypeA
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Mouth/Skeleton/TypeA.png
+    Sprite: {fileID: 21300000, guid: a3de2eb4337aae749a3c00a00704d3ba, type: 3}
+  - Name: TypeB
+    Collection: Skeleton
+    Id: UndeadHeroes.Skeleton.Mouth.TypeB
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/BodyParts/Mouth/Skeleton/TypeB.png
+    Sprite: {fileID: 21300000, guid: ecc41e0c46692244ca67fbf356bf74e0, type: 3}
+  - Name: WoodenHammer
+    Collection: Undead
+    Id: UndeadHeroes.Undead.MeleeWeapon1H.WoodenHammer
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Undead/Hammer/WoodenHammer.png
+    Sprite: {fileID: 21300000, guid: 9c9eaee18ed188d4eabe30c17b9e2009, type: 3}
+  - Name: Worm
+    Collection: Undead
+    Id: UndeadHeroes.Undead.Earrings.Worm
+    Path: Assets/HeroEditor4D/UndeadHeroes/Icons/WithoutBackground/Equipment/Earrings/Undead/Worm.png
+    Sprite: {fileID: 21300000, guid: 343d9a0bd2d7f3e43a00d43b1cf60642, type: 3}
+  DefaultItemIcon: {fileID: 21300000, guid: 2592d89d825e18e40bbd0df315004167, type: 3}

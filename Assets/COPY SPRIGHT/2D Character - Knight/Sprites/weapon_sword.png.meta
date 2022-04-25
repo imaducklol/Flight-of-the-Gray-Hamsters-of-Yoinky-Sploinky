@@ -442,7 +442,7 @@ TextureImporter:
       name: sword_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 1296
         width: 448
         height: 432
@@ -463,7 +463,7 @@ TextureImporter:
       name: sword_1
       rect:
         serializedVersion: 2
-        x: 448
+        x: 450
         y: 1296
         width: 448
         height: 432
