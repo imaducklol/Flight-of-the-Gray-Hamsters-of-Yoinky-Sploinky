@@ -64,3 +64,5 @@ crashlytics-build.properties
 # other bullshit
 
 [Uu]ser[Ss]ettings/
+*.meta
+
