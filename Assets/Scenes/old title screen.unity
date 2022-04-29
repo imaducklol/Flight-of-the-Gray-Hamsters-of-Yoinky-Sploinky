@@ -12990,6 +12990,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1119293557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119293555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73cc64df133915c489ebc5ebe0c9d373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  range: 0
 --- !u!1 &1169145624
 GameObject:
   m_ObjectHideFlags: 0
@@ -13512,6 +13526,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 820896142932285080, guid: 802d8a75bac9a9044ab7957ff7065f90,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.6418147
+      objectReference: {fileID: 0}
+    - target: {fileID: 820896142932285080, guid: 802d8a75bac9a9044ab7957ff7065f90,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.99567056
+      objectReference: {fileID: 0}
+    - target: {fileID: 820896142932285080, guid: 802d8a75bac9a9044ab7957ff7065f90,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.006902337
+      objectReference: {fileID: 0}
+    - target: {fileID: 820896142932285080, guid: 802d8a75bac9a9044ab7957ff7065f90,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.6928452
+      objectReference: {fileID: 0}
     - target: {fileID: 820896142932285082, guid: 802d8a75bac9a9044ab7957ff7065f90,
         type: 3}
       propertyPath: m_RootOrder
@@ -13640,6 +13674,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122909472907734155, guid: 64ac39b9001bc8b44b5da777f3c4b8b9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.31343877
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122909472907734155, guid: 64ac39b9001bc8b44b5da777f3c4b8b9,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0019720644
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122909472907734155, guid: 64ac39b9001bc8b44b5da777f3c4b8b9,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.019270472
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64ac39b9001bc8b44b5da777f3c4b8b9, type: 3}
