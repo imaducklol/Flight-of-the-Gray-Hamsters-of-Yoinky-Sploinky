@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    
 
     public Rigidbody2D rb;
-    public Animator animator;
-
+    private Animator animator;
+    
+    [SerializeField]
+    private float moveSpeed = 5f;
     Vector2 movement;
 
     private float attackTime = .25f;
@@ -20,11 +22,14 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
+    rb = GetComponent<Rigidbody2D>();
+    animator = GetComponent<Animator>();
     spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
+        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * moveSpeed * Time.deltaTime;
        movement.x = Input.GetAxisRaw("Horizontal");
        movement.y = Input.GetAxisRaw("Vertical"); 
 
@@ -32,7 +37,7 @@ public class CharacterMovement : MonoBehaviour
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Speed", movement.sqrMagnitude);
 
-       if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Vertical")== -1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1)
+       if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal")== -1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1)
        {
            animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
            animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
@@ -41,6 +46,7 @@ public class CharacterMovement : MonoBehaviour
 
        if(isAttacking)
        {
+            rb.velocity = Vector2.zero;
             attackCounter -=Time.deltaTime;
             if(attackCounter <= 0)
             {
