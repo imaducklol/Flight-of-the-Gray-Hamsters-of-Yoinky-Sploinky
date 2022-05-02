@@ -9944,6 +9944,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 35985235}
     m_Modifications:
+    - target: {fileID: 4442653431165992162, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: layer
+      value: Layer 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4442653431165992162, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: sortingLayer
+      value: Layer 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 295e819650a63784185fc3d55ce9e650,
         type: 3}
       propertyPath: m_RootOrder
