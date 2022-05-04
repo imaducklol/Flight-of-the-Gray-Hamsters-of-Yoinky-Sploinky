@@ -8,21 +8,21 @@ namespace Pathfinding {
 
 public class Enemy1Controller : MonoBehaviour {
 
-    [SerializeField] private float Radius;
+    [SerializeField] private float Range;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
 
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
-    private Transform target;
+    [SerializeField] private Transform target;
 
     IAstarAI ai;
 
     void OnEnable() {
         ai = GetComponent<IAstarAI>();
-        if (ai != null) ai.onSearchPath -= Update;
+        if (ai != null) ai.onSearchPath += Update;
     }
     void OnDisable () {
-			if (ai != null) ai.onSearchPath -= Update;
+		if (ai != null) ai.onSearchPath -= Update;
 	}
     void Start() {
         StartCoroutine("FindTargets", .2f);
@@ -42,19 +42,22 @@ public class Enemy1Controller : MonoBehaviour {
 
         // Targetting
         // Get closest target
-        
-        Transform closest = null;
+        /*
+        Transform closest = visibleTargets[0];
         if (visibleTargets[0] != null) {
-            closest = visibleTargets[0];
+            
             foreach (Transform item in visibleTargets) {
                 if (Vector2.Distance(transform.position, item.position) 
-                < Vector2.Distance(transform.position, closest.position)) {
+                <= Vector2.Distance(transform.position, closest.position)) {
                     closest = item;
                 }
             }
-
+        }*/
+           //closest != null &&
+        if ( ai != null) {
+            ai.destination = target.position;
+            //Debug.Log(closest.position);
         }
-        if (closest != null && ai != null) ai.destination = target.position;
     }
 
     IEnumerator FindTargets(float delay) {
@@ -66,8 +69,13 @@ public class Enemy1Controller : MonoBehaviour {
 
     void FindVisibleTargets() {
         visibleTargets.Clear();
-        Collider2D[] targetsInRadius = Physics2D.OverlapCircleAll(transform.position, Radius, targetMask);
+        Collider2D[] targetsInRadius = Physics2D.OverlapCircleAll(transform.position, Range, targetMask);
+        
+        /*for (int i = 0; i < targetsInRadius.Length; i++) {
+            visibleTargets.Add(targetsInRadius[i].transform);
+        }*/
 
+        
         for (int i = 0; i < targetsInRadius.Length; i++) {
             Transform target = targetsInRadius[i].transform;
             Vector2 directionToTarget = (target.position - transform.position).normalized;
