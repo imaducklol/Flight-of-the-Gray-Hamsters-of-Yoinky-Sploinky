@@ -5373,8 +5373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -186, y: -7}
-  m_SizeDelta: {x: 146.3, y: 141.1703}
+  m_AnchoredPosition: {x: -199.45319, y: -0.8033}
+  m_SizeDelta: {x: 89.4685, y: 91.8676}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103603314
 MonoBehaviour:
@@ -9907,7 +9907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.028301895, g: 0.018289432, b: 0.018289432, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10393,10 +10393,10 @@ RectTransform:
   m_Father: {fileID: 154476507}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0.0000054836}
-  m_SizeDelta: {x: 461.2081, y: 51.1661}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 465, y: -145.90045}
+  m_SizeDelta: {x: 410.9298, y: 37.3652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1524314487
 MonoBehaviour:
@@ -10411,6 +10411,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1524314488}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.87843144, g: 0.09019608, b: 0.098039225, a: 1}
+    key1: {r: 1, g: 0.9420621, b: 0, a: 1}
+    key2: {r: 0.18623962, g: 0.9433962, b: 0.084549636, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 26021
+    ctime1: 45875
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  fill: {fileID: 55141146}
 --- !u!114 &1524314488
 MonoBehaviour:
   m_ObjectHideFlags: 0
