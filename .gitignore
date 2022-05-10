@@ -58,11 +58,3 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# VSCode ignore
-.vscode/
-
-# other bullshit
-
-[Uu]ser[Ss]ettings/
-*.meta
-
