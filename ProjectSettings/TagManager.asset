@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - PlayerHelpers
-  - Enemies
-  - Objects
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,9 +11,9 @@ TagManager:
   - 
   - Water
   - UI
-  - PlayerHelpers
-  - Enemy
-  - Objects
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -32,7 +29,7 @@ TagManager:
   - Layer 2
   - Layer 3
   - 
-  - propts
+  - 
   - 
   - 
   - 
@@ -44,24 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Shadows
-    uniqueID: 1604824481
-    locked: 0
-  - name: Layer 0
-    uniqueID: 3641070105
-    locked: 0
   - name: Layer 1
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 2
+  - name: Player
     uniqueID: 4250941897
     locked: 0
   - name: Layer 3
     uniqueID: 4189426099
-    locked: 0
-  - name: Propts
-    uniqueID: 329544355
-    locked: 0
-  - name: Player
-    uniqueID: 2009764623
     locked: 0
