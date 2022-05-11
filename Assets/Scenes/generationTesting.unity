@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 613939609}
   m_Layer: 0
   m_Name: roomBank
-  m_TagString: Untagged
+  m_TagString: rooms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,6 +163,7 @@ MonoBehaviour:
   - {fileID: 7467240283969120787, guid: b3656e268608c634a94450a8ff5b5a73, type: 3}
   rightRooms:
   - {fileID: 7467240283969120787, guid: b3656e268608c634a94450a8ff5b5a73, type: 3}
+  spawnRooms: []
 --- !u!4 &613939610
 Transform:
   m_ObjectHideFlags: 0

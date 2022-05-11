@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rooms : MonoBehaviour
+public class RoomBank : MonoBehaviour
 {
     public GameObject[] middleRooms;
     public GameObject[] leftRooms;
