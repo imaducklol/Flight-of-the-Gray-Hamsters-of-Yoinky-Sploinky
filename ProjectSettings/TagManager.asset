@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerHelpers
+  - Enemies
+  - Objects
+  - rooms
   layers:
   - Default
   - TransparentFX
@@ -44,7 +48,7 @@ TagManager:
   - name: Layer 1
     uniqueID: 2425651459
     locked: 0
-  - name: Player
+  - name: Layer 2
     uniqueID: 4250941897
     locked: 0
   - name: Layer 3
