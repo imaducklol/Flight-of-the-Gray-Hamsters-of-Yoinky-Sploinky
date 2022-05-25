@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 4404250995082666866}
   m_Layer: 0
   m_Name: spawnRoomRight
-  m_TagString: Untagged
+  m_TagString: exitRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

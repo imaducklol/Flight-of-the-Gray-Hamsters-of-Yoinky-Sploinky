@@ -9,9 +9,12 @@ public class dungeunGenorator : MonoBehaviour
     private RoomBank Bank;
     private int rando;
     private Vector2 spawnPos; 
+    private Vector3 entrance;
 
     //remembers where the exit to the last room was where 0 => left, 1 => top, 2 => right
     public int exitTracker;
+    //tracks how many rooms have been spawned
+    public int roomTracker;
 
     /*
         -Rooms must not overlap with eachother
@@ -30,10 +33,19 @@ public class dungeunGenorator : MonoBehaviour
             - on contact with anything, destroy the spawnpoint
                 - the only thing it should be contacting is the ground of the new room
                     - if it destroys before spawning a room due to being too close to the last room, increase the spawnpoint's offset
-
+        -Rooms need to have an way to track where the exit is
+            - set each room prefab's tag to where the exit is
+            - find room's tag and convert to exitTracker
 
     */
 
+    /*
+        Overlap prevention code
+
+
+
+
+    */
         
     void Spawner()
     {
@@ -43,22 +55,20 @@ public class dungeunGenorator : MonoBehaviour
         Instantiate(Bank.spawnRooms[rando], transform.position, Quaternion.identity);
         exitTracker = rando;
 
-        //Last rooms exit was to the left
         if(exitTracker == 0) {
-            
+            rando = Random.Range(0, Bank.leftRooms.Length);
+            //entrance = prefab.upToLeft.entrancePos.transform.position; get the position of the entrance gameobject
             
         }
-
-        //last rooms exit was to the middle
+        //middle
         if (exitTracker == 1) {
             rando = Random.Range(0, Bank.middleRooms.Length);
-            //spawnPos =
+            //spawnPos = 
             Instantiate(Bank.middleRooms[rando], spawnPos, Quaternion.identity);
             //get the exit status !!!
             // exitTracker = exit status
         }
         
-        //last rooms exit was to the right
         if(exitTracker == 2) {
             
 
