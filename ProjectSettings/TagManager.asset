@@ -8,6 +8,11 @@ TagManager:
   - Enemies
   - Objects
   - rooms
+  - snapPoint
+  - exitLeft
+  - exitRight
+  - exitMiddle
+  - entrancePos
   layers:
   - Default
   - TransparentFX
