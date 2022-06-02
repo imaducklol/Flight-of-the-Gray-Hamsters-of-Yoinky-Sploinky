@@ -16,7 +16,8 @@ public class EnemyActions : MonoBehaviour
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
 
     void Attack(Transform toAttack) {
-        toAttack.GameObject.GetComponent<PlayerActions>().TakeDamage(damage);
+        Debug.Log("attackin");
+        //toAttack.gameObject.GetComponent<PlayerActions>().TakeDamage(damage);
     }
 
     void TakeDamage(int damage) {
@@ -32,7 +33,7 @@ public class EnemyActions : MonoBehaviour
 
     void Update()
     {
-        if (!visibleTargets.length == 0) {
+        if (visibleTargets.Count != 0) {
             foreach (Transform toAttack in visibleTargets) {
                 Attack(toAttack);
             }
