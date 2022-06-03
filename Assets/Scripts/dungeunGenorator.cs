@@ -5,10 +5,10 @@ using UnityEngine;
 public class dungeunGenorator : MonoBehaviour
 {
     
-
+    public int RoomAmount; 
     private RoomBank Bank;
-    private int rando;
-    private Vector2 spawnPos; 
+    private int randoNum;
+    private Vector3 spawnPos; 
     private Vector3 entrance;
 
     //remembers where the exit to the last room was where 0 => left, 1 => top, 2 => right
@@ -17,17 +17,21 @@ public class dungeunGenorator : MonoBehaviour
     public int roomTracker;
 
     /*
+        //high priority
         -Rooms must not overlap with eachother
             - find the appropriate room
             - find the transform position of the entrance spawner for that rooms prefab
+                - just instantiate and move the prefab
             - If the room spawned will be to the right or left: 
                 - take the negative x value of the position then add the x position value of the exit spawner(the gameobject this script is attached to)
                 - instantiate at that position with the same y
-            - If the room spawned will be ot the middle: 
+            - If the room spawned will be at the middle: 
                 - find the y offset of the entrance spawner for the prefab
                 - take the abs
                 - add to the y-pos of the exit spawner 
                 - instantiate at that pos
+
+        //low priority
         -Rooms must not spawn on top of eachother
             - added a ridgidbody and box collider to the spawnpoints 
             - on contact with anything, destroy the spawnpoint
@@ -39,41 +43,46 @@ public class dungeunGenorator : MonoBehaviour
 
     */
 
-    /*
-        Overlap prevention code
-
-
-
-
-    */
-        
-    void Spawner()
+    void Spawner(int roomAmount)
     {
-        Bank = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomBank>();
+        Bank = GameObject.FindGameObjectWithTag("rooms").GetComponent<RoomBank>();
 
-        rando = Random.Range(0, Bank.spawnRooms.Length);
-        Instantiate(Bank.spawnRooms[rando], transform.position, Quaternion.identity);
-        exitTracker = rando;
-
-        if(exitTracker == 0) {
-            rando = Random.Range(0, Bank.leftRooms.Length);
-            //entrance = prefab.upToLeft.entrancePos.transform.position; get the position of the entrance gameobject
-            
-        }
-        //middle
-        if (exitTracker == 1) {
-            rando = Random.Range(0, Bank.middleRooms.Length);
-            //spawnPos = 
-            Instantiate(Bank.middleRooms[rando], spawnPos, Quaternion.identity);
-            //get the exit status !!!
-            // exitTracker = exit status
-        }
+        randoNum = Random.Range(0, Bank.spawnRooms.Length);
+        Instantiate(Bank.spawnRooms[randoNum], transform.position, Quaternion.identity);
+        exitTracker = randoNum;
         
-        if(exitTracker == 2) {
-            
+        for (var i = 0; i < roomAmount; i++)
+        {
+            //left
+            if(exitTracker == 0) {
+                randoNum = Random.Range(0, Bank.leftRooms.Length);
+                Instantiate(Bank.leftRooms[randoNum], new Vector3(0, 0, 0), Quaternion.identity);
+                
 
+                
+            }
+            //middle
+            if (exitTracker == 1) {
+                randoNum = Random.Range(0, Bank.middleRooms.Length);
+                //spawnPos = 
+                Instantiate(Bank.middleRooms[randoNum], spawnPos, Quaternion.identity);
+                //get the exit status !!!
+                // exitTracker = exit status
+            }
+            
+            if(exitTracker == 2) {
+                
+
+            }
         }
-         
+                
     }
     
+ 
+    void Start() 
+    {
+        RoomAmount = 4; 
+        Spawner(RoomAmount);
+    }
+
 }
