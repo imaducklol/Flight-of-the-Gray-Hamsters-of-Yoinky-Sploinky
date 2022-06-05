@@ -153,7 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   middleRooms: []
-  leftRooms: []
+  leftRooms:
+  - {fileID: 6435146453262680913, guid: 30603d167e280de4183dfb67543ad03a, type: 3}
   rightRooms: []
   spawnRooms:
   - {fileID: 5181211537068538716, guid: 40c4cc5f38df2514dadd9a4bbf080fcc, type: 3}
