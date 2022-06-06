@@ -44,6 +44,7 @@ public class CharacterMovement : MonoBehaviour
             attackCounter -=Time.deltaTime;
             if(attackCounter <= 0)
             {
+                gameObject.GetComponent<PlayerActions>().Attack();
                 animator.SetBool("isAttacking", false);
                 isAttacking = false;
             }

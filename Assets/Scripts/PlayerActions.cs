@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyActions : MonoBehaviour
+public class PlayerActions : MonoBehaviour
 {
     [SerializeField] public int currentHealth;
     [SerializeField] private int maxHealth;
@@ -11,14 +11,17 @@ public class EnemyActions : MonoBehaviour
     [SerializeField] private float Range;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
-    private float attackTime = .25f;
-    private float attackCounter = .25f;
+    [SerializeField] private float attackRate;
+    public HealthBar healthbar;
 
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
 
-    void Attack(Transform toAttack) {
+    public void Attack() {
         Debug.Log("attackin");
-        toAttack.gameObject.GetComponent<PlayerActions>().TakeDamage(damage);
+        foreach (Transform target in visibleTargets) {
+            target.gameObject.GetComponent<EnemyActions>().TakeDamage(damage);
+
+        }
     }
 
     public void TakeDamage(int damage) {
@@ -26,21 +29,18 @@ public class EnemyActions : MonoBehaviour
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
         currentHealth -= damage;
+
+        healthbar.SetHealth(currentHealth);
     }
     
     void Start() {
         StartCoroutine("FindTargets", .2f);
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     void Update()
     {
-        attackTime -= Time.deltaTime;
-        if (visibleTargets.Count != 0 && attackCounter <= 0) {
-            attackCounter = attackTime;
-            foreach (Transform toAttack in visibleTargets) {
-                Attack(toAttack);
-            }
-        }
+
     }
 
     IEnumerator FindTargets(float delay) {

@@ -1509,6 +1509,7 @@ GameObject:
   - component: {fileID: 836483561806134272}
   - component: {fileID: 836483561806134284}
   - component: {fileID: 405915138803552304}
+  - component: {fileID: 7347372756904130067}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Untagged
@@ -1670,6 +1671,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.95, y: 0.49}
   m_EdgeRadius: 0
+--- !u!114 &7347372756904130067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836483561806134275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa4e21812289cf4cb3427e91b2aff70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 100
+  maxHealth: 100
+  defense: 5
+  damage: 10
+  Range: 5
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 256
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 128
+  attackRate: 1
+  healthbar: {fileID: 0}
+  visibleTargets: []
 --- !u!1 &836483561817153685
 GameObject:
   m_ObjectHideFlags: 0
