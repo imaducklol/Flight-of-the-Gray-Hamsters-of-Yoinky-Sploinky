@@ -152,7 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b30d1f6bc1d54d042bca83fc251fe935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  middleRooms: []
+  middleRooms:
+  - {fileID: 7459450125172415330, guid: 6ba8bd3385fb1ec4f94c0924990985ad, type: 3}
   leftRooms:
   - {fileID: 6435146453262680913, guid: 30603d167e280de4183dfb67543ad03a, type: 3}
   rightRooms: []
@@ -202,6 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomAmount: 5
+  spawnPos: {x: 0, y: 0, z: 0}
+  entrance: {x: 0, y: 0, z: 0}
   exitTracker: 0
   roomTracker: 0
 --- !u!4 &1199317402

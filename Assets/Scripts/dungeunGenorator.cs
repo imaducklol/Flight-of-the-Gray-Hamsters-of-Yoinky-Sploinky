@@ -8,7 +8,7 @@ public class dungeunGenorator : MonoBehaviour
     public int RoomAmount; 
     private RoomBank Bank;
     private int randoNum;
-    private Vector3 spawnPos; 
+    public Vector3 spawnPos; 
     public Vector3 entrance;
 
     //remembers where the exit to the last room was where 0 => left, 1 => top, 2 => right
@@ -55,15 +55,21 @@ public class dungeunGenorator : MonoBehaviour
         if (lastRoom.tag == "exitRight") {exitTracker = 2;}
     }
 
-    private int xDisplacment;
-    private int yDisplacment; 
-
-
-    void exitPos(GameObject lastRoom) 
+    void entrancePos(GameObject lastRoom) 
     {
         entrance = lastRoom.transform.Find("snapPoint").gameObject.transform.position;
-
     }
+
+    void resetSpawnPoint(GameObject lastRoom) 
+    {
+        spawnPos = lastRoom.transform.Find("exitPoint").gameObject.transform.position;
+    }
+
+
+
+    private float invertedX;
+    private float invertedY;
+    
 
     void Spawner(int roomAmount)
     {
@@ -71,39 +77,44 @@ public class dungeunGenorator : MonoBehaviour
 
         randoNum = Random.Range(0, Bank.spawnRooms.Length);
         Instantiate(Bank.spawnRooms[randoNum], transform.position, Quaternion.identity);
+        Debug.Log("spawn room created");
+        resetSpawnPoint(Bank.spawnRooms[randoNum]);
         roomAmount -= 1;
-        //b/c there are only three spawnrooms i can put them in order instead of getting the tag
         exitTracker = randoNum;
-
-
         
+
         for (var i = 0; i < roomAmount; i++)
         {
             //left
             if(exitTracker == 0) {
                 randoNum = Random.Range(0, Bank.leftRooms.Length);
-                //Bank.leftRooms[randoNum].findG;
-                Instantiate(Bank.leftRooms[randoNum], new Vector3(0, 0, 0), Quaternion.identity);
+                entrancePos(Bank.leftRooms[randoNum]);
+                invertedX = -entrance.x;
+                invertedY = -entrance.y;
+                Instantiate(Bank.leftRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
+                Debug.Log("left entrance room created");
                 findExit(Bank.leftRooms[randoNum]);
-                exitPos(Bank.leftRooms[randoNum]);
-                roomAmount += 1; 
+                resetSpawnPoint(Bank.leftRooms[randoNum]);
+                roomAmount -= 1; 
                 
             }
+            else if (exitTracker == 1) {
+                entrancePos(Bank.middleRooms[randoNum]);
+                invertedX = -entrance.x;
+                invertedY = -entrance.y;
+                Instantiate(Bank.middleRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
+                Debug.Log("middle entrance room created");
+                findExit(Bank.middleRooms[randoNum]);
+                resetSpawnPoint(Bank.middleRooms[randoNum]);
+                roomAmount -= 1; 
 
-            //middle
-            if (exitTracker == 1) {
-                randoNum = Random.Range(0, Bank.middleRooms.Length);
-
-                Instantiate(Bank.middleRooms[randoNum], new Vector3(0,0,0), Quaternion.identity);
-
-            }
-            
-            //right
-            if(exitTracker == 2) {
+            } 
+            else if(exitTracker == 2) {
                 
 
             }
         }
+        Debug.Log("all rooms created");
                 
     }
     
