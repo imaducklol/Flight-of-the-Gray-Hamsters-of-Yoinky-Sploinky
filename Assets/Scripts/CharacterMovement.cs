@@ -20,34 +20,39 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-    spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-       movement.x = Input.GetAxisRaw("Horizontal");
-       movement.y = Input.GetAxisRaw("Vertical"); 
+        if (gameObject.GetComponent<PlayerActions>().currentHealth < 0) {
+            Time.timeScale = 0;
+        }
 
-       animator.SetFloat("Horizontal", movement.x);
-       animator.SetFloat("Vertical", movement.y);
-       animator.SetFloat("Speed", movement.sqrMagnitude);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical"); 
 
-       if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal")== -1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1)
-       {
-           animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
-           animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
-       }
-      
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
-       if(isAttacking)
-       {
+        if(Input.GetAxisRaw("Horizontal")==1 || Input.GetAxisRaw("Horizontal")== -1 || Input.GetAxisRaw("Vertical")==1 || Input.GetAxisRaw("Vertical")==-1)
+        {
+            animator.SetFloat("LastHorizontal", Input.GetAxisRaw("Horizontal"));
+            animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
+        }
+
+
+        if(isAttacking)
+        {
             attackCounter -=Time.deltaTime;
             if(attackCounter <= 0)
             {
+                gameObject.GetComponent<PlayerActions>().Attack();
                 animator.SetBool("isAttacking", false);
                 isAttacking = false;
             }
-       }
+        }
 
         if (Input.GetMouseButtonDown(0)){
             attackCounter = attackTime;

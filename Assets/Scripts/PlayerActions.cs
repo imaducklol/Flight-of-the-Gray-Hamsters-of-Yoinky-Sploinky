@@ -2,29 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyActions : MonoBehaviour
+public class PlayerActions : MonoBehaviour
 {
     [SerializeField] public int currentHealth;
     [SerializeField] private int maxHealth;
     [SerializeField] private int defense;
     [SerializeField] private int damage;
     [SerializeField] private float Range;
-    [SerializeField] private Transform target;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
-    [SerializeField] private float attackTime = .25f;
-    private float attackCounter = .25f;
-
-    public Animator animator;
-    private Vector2 deltaPos;
-
+    //[SerializeField] private float attackRate;
+    //public HealthBar healthbar;
 
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
 
-    void Attack(Transform toAttack) {
+    public void Attack() {
         Debug.Log("attackin");
-        toAttack.gameObject.GetComponent<PlayerActions>().TakeDamage(damage);
-        Debug.Log(toAttack);
+        foreach (Transform target in visibleTargets) {
+            target.gameObject.GetComponent<EnemyActions>().TakeDamage(damage);
+
+        }
     }
 
     public void TakeDamage(int damage) {
@@ -32,34 +29,18 @@ public class EnemyActions : MonoBehaviour
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
         currentHealth -= damage;
+
+       // healthbar.SetHealth(currentHealth);
     }
     
     void Start() {
         StartCoroutine("FindTargets", .2f);
+        //healthbar.SetMaxHealth(maxHealth);
     }
 
     void Update()
     {
-        deltaPos =target.position - transform.position;
-        //(float)(deltaPos.normalized.x) * .1f
-        //(float)(deltaPos.normalized.y) * .1f
-        animator.SetBool("withinRange", true);
-        animator.SetFloat("Horizontal", deltaPos.x);
-        animator.SetFloat("Vertical",   deltaPos.y);
-        
 
-        if (visibleTargets.Count != 0 ) {
-            attackCounter -= Time.deltaTime;
-            if (attackCounter <= 0) {
-                attackCounter = attackTime;
-                foreach (Transform toAttack in visibleTargets) {
-                    Attack(toAttack);
-                }
-            }
-        }
-        if (currentHealth < 0) {
-            Destroy(gameObject);
-        }
     }
 
     IEnumerator FindTargets(float delay) {
