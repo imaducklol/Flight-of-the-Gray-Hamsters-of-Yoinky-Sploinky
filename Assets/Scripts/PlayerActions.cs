@@ -12,7 +12,7 @@ public class PlayerActions : MonoBehaviour
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
     //[SerializeField] private float attackRate;
-    //public HealthBar healthbar;
+    public HealthBar healthbar;
 
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
 
@@ -30,12 +30,12 @@ public class PlayerActions : MonoBehaviour
 
         currentHealth -= damage;
 
-       // healthbar.SetHealth(currentHealth);
+        healthbar.SetHealth(currentHealth);
     }
     
     void Start() {
         StartCoroutine("FindTargets", .2f);
-        //healthbar.SetMaxHealth(maxHealth);
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     void Update()
