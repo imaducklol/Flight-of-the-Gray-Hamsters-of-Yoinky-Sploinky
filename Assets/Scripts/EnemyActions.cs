@@ -9,16 +9,22 @@ public class EnemyActions : MonoBehaviour
     [SerializeField] private int defense;
     [SerializeField] private int damage;
     [SerializeField] private float Range;
+    [SerializeField] private Transform target;
     [SerializeField] private LayerMask targetMask;
     [SerializeField] private LayerMask obstacleMask;
-    private float attackTime = .25f;
+    [SerializeField] private float attackTime = .25f;
     private float attackCounter = .25f;
+
+    public Animator animator;
+    private Vector2 deltaPos;
+
 
     [SerializeField] private List<Transform> visibleTargets = new List<Transform>();
 
     void Attack(Transform toAttack) {
         Debug.Log("attackin");
         toAttack.gameObject.GetComponent<PlayerActions>().TakeDamage(damage);
+        Debug.Log(toAttack);
     }
 
     public void TakeDamage(int damage) {
@@ -34,12 +40,25 @@ public class EnemyActions : MonoBehaviour
 
     void Update()
     {
-        attackTime -= Time.deltaTime;
-        if (visibleTargets.Count != 0 && attackCounter <= 0) {
-            attackCounter = attackTime;
-            foreach (Transform toAttack in visibleTargets) {
-                Attack(toAttack);
+        deltaPos =target.position - transform.position;
+        //(float)(deltaPos.normalized.x) * .1f
+        //(float)(deltaPos.normalized.y) * .1f
+        animator.SetBool("withinRange", true);
+        animator.SetFloat("Horizontal", deltaPos.x);
+        animator.SetFloat("Vertical",   deltaPos.y);
+        
+
+        if (visibleTargets.Count != 0 ) {
+            attackCounter -= Time.deltaTime;
+            if (attackCounter <= 0) {
+                attackCounter = attackTime;
+                foreach (Transform toAttack in visibleTargets) {
+                    Attack(toAttack);
+                }
             }
+        }
+        if (currentHealth < 0) {
+            Destroy(gameObject);
         }
     }
 
