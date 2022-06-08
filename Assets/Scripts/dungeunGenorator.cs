@@ -60,9 +60,23 @@ public class dungeunGenorator : MonoBehaviour
         entrance = lastRoom.transform.Find("snapPoint").gameObject.transform.position;
     }
 
+    private GameObject temp; 
+
     void resetSpawnPoint(GameObject lastRoom) 
     {
-        spawnPos = lastRoom.transform.Find("exitPoint").gameObject.transform.position;
+        temp = GameObject.FindGameObjectWithTag("exitPoint");
+        //Debug.Log(temp.transform.position);
+        
+        spawnPos.x += GameObject.FindGameObjectWithTag("exitPoint").GetComponent<Transform>().position.x;
+        //spawnPos.x += lastRoom.transform.position.x; 
+
+        spawnPos.y += GameObject.FindGameObjectWithTag("exitPoint").GetComponent<Transform>().position.y;
+        //spawnPos.y += lastRoom.transform.position.y;
+        
+        spawnPos = temp.transform.position;
+        Destroy(GameObject.FindGameObjectWithTag("exitPoint"));
+        
+
     }
 
 
@@ -76,9 +90,9 @@ public class dungeunGenorator : MonoBehaviour
         Bank = GameObject.FindGameObjectWithTag("rooms").GetComponent<RoomBank>();
 
         randoNum = Random.Range(0, Bank.spawnRooms.Length);
-        Instantiate(Bank.spawnRooms[randoNum], transform.position, Quaternion.identity);
+        Instantiate(Bank.spawnRooms[randoNum], new Vector3 (0, 0, 0), Quaternion.identity);
         Debug.Log("spawn room created");
-        resetSpawnPoint(Bank.spawnRooms[randoNum]);
+        //resetSpawnPoint(Bank.spawnRooms[randoNum]);
         roomAmount -= 1;
         exitTracker = randoNum;
         
@@ -87,27 +101,30 @@ public class dungeunGenorator : MonoBehaviour
         {
             //left
             if(exitTracker == 0) {
+
+                Debug.Log(GameObject.FindGameObjectWithTag("exitPoint").transform.position);
+                resetSpawnPoint(Bank.leftRooms[randoNum]);
                 randoNum = Random.Range(0, Bank.leftRooms.Length);
                 entrancePos(Bank.leftRooms[randoNum]);
                 invertedX = -entrance.x;
                 invertedY = -entrance.y;
                 Instantiate(Bank.leftRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
-                Debug.Log("left entrance room created");
                 findExit(Bank.leftRooms[randoNum]);
-                resetSpawnPoint(Bank.leftRooms[randoNum]);
-                roomAmount -= 1; 
                 
             }
             else if (exitTracker == 1) {
+                resetSpawnPoint(Bank.middleRooms[randoNum]);
+                Debug.Log(GameObject.FindGameObjectWithTag("exitPoint").transform.position);
+                randoNum = Random.Range(0, Bank.middleRooms.Length);
+
+                
                 entrancePos(Bank.middleRooms[randoNum]);
                 invertedX = -entrance.x;
                 invertedY = -entrance.y;
-                Instantiate(Bank.middleRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
-                Debug.Log("middle entrance room created");
-                findExit(Bank.middleRooms[randoNum]);
-                resetSpawnPoint(Bank.middleRooms[randoNum]);
-                roomAmount -= 1; 
 
+                Instantiate(Bank.middleRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
+
+                findExit(Bank.middleRooms[randoNum]);
             } 
             else if(exitTracker == 2) {
                 
@@ -121,7 +138,7 @@ public class dungeunGenorator : MonoBehaviour
  
     void Start() 
     {
-        RoomAmount = 4; 
+        RoomAmount = 3; 
         Spawner(RoomAmount);
     }
 
