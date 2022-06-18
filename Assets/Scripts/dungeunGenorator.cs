@@ -110,14 +110,11 @@ public class dungeunGenorator : MonoBehaviour
                 invertedY = -entrance.y;
                 Instantiate(Bank.leftRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
                 findExit(Bank.leftRooms[randoNum]);
+                resetSpawnPoint(Bank.leftRooms[randoNum]);
                 
             }
             else if (exitTracker == 1) {
-                resetSpawnPoint(Bank.middleRooms[randoNum]);
-                Debug.Log(GameObject.FindGameObjectWithTag("exitPoint").transform.position);
                 randoNum = Random.Range(0, Bank.middleRooms.Length);
-
-                
                 entrancePos(Bank.middleRooms[randoNum]);
                 invertedX = -entrance.x;
                 invertedY = -entrance.y;
@@ -125,9 +122,18 @@ public class dungeunGenorator : MonoBehaviour
                 Instantiate(Bank.middleRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
 
                 findExit(Bank.middleRooms[randoNum]);
+                resetSpawnPoint(Bank.middleRooms[randoNum]);
+
             } 
             else if(exitTracker == 2) {
-                
+                randoNum = Random.Range(0, Bank.rightRooms.Length);
+                entrancePos(Bank.rightRooms[randoNum]);
+                invertedX = -entrance.x;
+                invertedY = -entrance.y;
+                Instantiate(Bank.rightRooms[randoNum], new Vector3 (spawnPos.x + invertedX, spawnPos.y + invertedY, 0), Quaternion.identity);
+                Debug.Log("right entrance room created");
+                findExit(Bank.rightRooms[randoNum]);
+                resetSpawnPoint(Bank.rightRooms[randoNum]);
 
             }
         }
